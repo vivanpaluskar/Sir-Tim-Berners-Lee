@@ -78,17 +78,18 @@ p {
 }
 
 .menu{
- list-style: none;
  font-family: sans-serif;
  position: fixed;
- top: 10px;
- right: 30px;
+ top: 0px;
+ margin-top: 0px;
  z-index: 10;
  cursor: pointer;
+ background-color: white;
+ width: 100%;
 }
 
 .links{
- float: left;
+ display: inline;
  color: darkgreen;
  padding: 5px;
  padding-left: 9px;
@@ -100,13 +101,35 @@ p {
 
 .links:hover{
  background-color: darkblue;
+ font-size: 25px;
+ text-decoration: underline;
 }
 html{
  scroll-behavior: smooth;
 }
 a{
  text-decoration: none;
+ color: darkgoldenrod;
+ text-shadow: 2px 2px grey;
 }
 .article:hover{
  color: coral; 
+}
+#writings a{
+ text-shadow: none !important;
+ text-decoration: underline !important;
+ color: darkcyan !important;
+}
+#contact{
+ background: greenyellow;
+}
+#contact iframe{
+ width: 100%;
+}
+.contact_1 h3{
+ display: inline;
+}
+.contact_1 a{
+ color: coral;
+ text-shadow: none;
 }
